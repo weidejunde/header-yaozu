@@ -1,25 +1,5 @@
-// header.js
-
+// File JavaScript này sẽ chứa nội dung HTML dưới dạng chuỗi
 const headerHTML = `
-  <style>
-    header {
-      background-color: #333;
-      padding: 10px;
-      color: white;
-    }
-    nav ul {
-      list-style-type: none;
-      padding: 0;
-    }
-    nav ul li {
-      display: inline;
-      margin-right: 20px;
-    }
-    nav ul li a {
-      color: white;
-      text-decoration: none;
-    }
-  </style>
   <header>
     <nav>
       <ul>
@@ -30,6 +10,30 @@ const headerHTML = `
       </ul>
     </nav>
   </header>
+  <style>
+    header {
+      background-color: #333;
+      color: white;
+      padding: 10px 20px;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+    }
+    nav ul li {
+      display: inline;
+      margin-right: 15px;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+    }
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+  </style>
 `;
 
+// Chèn HTML vào trang khi tài liệu tải xong
 document.body.insertAdjacentHTML('afterbegin', headerHTML);
+document.body.classList.remove('hidden');
