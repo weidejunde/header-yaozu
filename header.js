@@ -1,3 +1,4 @@
+// header.js
 const headerHTML = `
   <style>
     header {
@@ -26,4 +27,4 @@ const headerHTML = `
   </header>
 `;
 
-export default headerHTML;
+module.exports = headerHTML;
