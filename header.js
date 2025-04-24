@@ -1,20 +1,4 @@
 const headerHTML = `
-  <style>
-    header {
-      background-color: #f0f0f0;
-      padding: 10px;
-    }
-    nav ul {
-      list-style: none;
-      padding: 0;
-      display: flex;
-      gap: 20px;
-    }
-    nav a {
-      text-decoration: none;
-      color: #333;
-    }
-  </style>
   <header>
     <nav>
       <ul>
