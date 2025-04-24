@@ -1,5 +1,4 @@
-// File JavaScript này sẽ chứa nội dung HTML dưới dạng chuỗi
-const headerHTML = `
+document.getElementById('header').innerHTML = `
   <header>
     <nav>
       <ul>
@@ -10,5 +9,3 @@ const headerHTML = `
     </nav>
   </header>
 `;
-
-export default headerHTML;
